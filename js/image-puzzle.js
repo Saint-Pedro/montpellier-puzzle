@@ -37,7 +37,7 @@ var imagePuzzle = {
 
     setImage: function (images, gridSize) {
         console.log(gridSize);
-        gridSize = gridSize || 8; // If gridSize is null or not passed, default it as 4.
+        gridSize = gridSize || 4; // If gridSize is null or not passed, default it as 4.
         console.log(gridSize);
         var percentage = 100 / (gridSize - 1);
         var image = images[Math.floor(Math.random() * images.length)];
