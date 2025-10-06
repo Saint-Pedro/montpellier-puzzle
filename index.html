@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Image Puzzle</title>
+    <title>Puzzle Escape Game</title>
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/image-puzzle.css" rel="stylesheet" />
     <script src="js/jquery-2.1.1.min.js"></script>
@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="collage">
-        <h2 style="color:#222; font-weight:bold; font-size:30px;">TECH-IT</h2>
+        <h2 style="color:#222; font-weight:bold; font-size:30px;">Escape Game - Montpellier</h2>
         <hr />
         <div id="playPanel" style="padding:5px;display:none;">
 
@@ -19,10 +19,10 @@
 				
                 <div id="actualImageBox">
                     <div id="stepBox">
-                        <div>Steps:</div><div class="stepCount">0</div>
+                        <div>Mouvements:</div><div class="stepCount">0</div>
                     </div>
                     <img id="actualImage" />
-                    <div>Re-arrange to create a picture like this.</div>
+                    <div>Réarrangez les pièces pour reconstituer l'image.</div>
                     <p id="levelPanel">
                         <input type="radio" name="level" id="hard" checked="checked" value="3" /> <label for="hard">Puzzle Picture</label>
                     </p>
@@ -36,25 +36,25 @@
 				clearTimeout(t);
 			</script>
             <div style=" padding: 5px 10px 20px 10px; text-align: center; ">
-                <h2 style="text-align:center">Game Over!!</h2>
-                Congratulations!! <br /> You have completed this picture
+                <h2 style="text-align:center">C'est terminé !</h2>
+                Félicitations !! <br /> Vous avez terminé cette image
                 <br />
-                in <span class="stepCount">0</span> steps.
+                en <span class="stepCount">0</span> mouvements.
                 <br /><br />
             </div>
         </div>
     </div>
-	<div style=" background: #000; color:#eee; padding:10px; text-align:center;"><h1><time>00:00:00</time></h1>©AjayRandhawa(2017)</div>
+	<div style=" background: #000; color:#eee; padding:10px; text-align:center;"><h1><time>00:00:00</time></h1>Workshop EPSI 2025</div>
 	</div>
 	</div>
 	
 	        <script>
             var images = [
-                { src: 'images/london-bridge.jpg' },
-                { src: 'images/lotus-temple.jpg' },
-                { src: 'images/qutub-minar.jpg'},
-                { src: 'images/statue-of-liberty.jpg' },
-                { src: 'images/taj-mahal.jpg' }
+                { src: 'images/antigone.jpg' },
+                { src: 'images/cathedrale-st-pierre.jpg' },
+                { src: 'images/centre-historique.jpg'},
+                { src: 'images/fontaine-comedie.jpg' },
+                { src: 'images/port-marianne.jpg' }
             ];
 
             $(function () {
