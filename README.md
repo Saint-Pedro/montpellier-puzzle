@@ -1,39 +1,45 @@
-# Image-Puzzle-Game
-Image Puzzle is Game For I Designed College Technical Event. It Is Designed With HTML, CSS, Javascript, Jquery. Image Complete with Mouse drag Functionalities . It Has Also Step Count and Time Count Functionalities.You Can Also Switch to Difficulty Mode.
+# Montpellier Puzzle - Escape Game
 
-### Prerequisites
+Puzzle d'images adapté pour un escape game éducatif sur le tourisme à Montpellier.
+Basé sur [Image-Puzzle-Game](https://github.com/ajayrandhawa/Image-Puzzle-Game) par Ajay Randhawa.
 
-1. Webbrowser
-2. Text Editor
+## Description
 
-### Installing
+Jeu de puzzle 4x4 (16 pièces) avec images de monuments montpelliérains.
+Développé avec HTML, CSS, Javascript, jQuery.
+Fonctionnalités : drag & drop, compteur de mouvements, chronomètre.
 
-1. Clone this repository: git clone https://github.com/ajayrandhawa/Image-Puzzle-Game.git
-2. open index.html file in browser
-3. Play the game with mouse drag 'n drop
+## Prérequis
 
-## Game View
+- Navigateur web moderne
+- Éditeur de texte (pour modifications)
 
-<img src="Screenshot.jpg" alt="wireframe">
+## Installation
 
-## Increase Difficulty of Game
+1. Cloner ce repository : `git clone https://github.com/Saint-Pedro/montpellier-puzzle.git`
+2. Ouvrir `index.html` dans un navigateur
+3. Jouer en glissant-déposant les pièces
 
-open "index.html" file in notepad and edit input value.
+## Images incluses
 
-```
-Change Value of Input Field "value=3" eg: "value="9" 
-<input type="radio" name="level" id="hard" checked="checked" value="3" /> <label for="hard">Puzzle Picture</label>
-```
+- Antigone
+- Cathédrale Saint-Pierre
+- Centre historique
+- Fontaine de la Comédie
+- Port Marianne
 
-## Version
+## Modifications apportées
 
-2.0
+- Passage de grille 3x3 à 4x4
+- Traduction en français
+- Remplacement des images par monuments de Montpellier
+- Adaptation du texte pour contexte escape game
 
-## Authors
+## Auteurs
 
-Ajay Randhawa
+- Puzzle original : Ajay Randhawa
+- Adaptation Montpellier : Équipe Workshop EPSI 2025
 
- ## Donate
-If you appreciate that, please consider donating to the Developer.
+## Licence
 
-[![Donate](https://cdn.pbrd.co/images/HyQFKkP.png)](https://www.paypal.me/ajayrandhawa) 
+MIT (héritée du projet original)
