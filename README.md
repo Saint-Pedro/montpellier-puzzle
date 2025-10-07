@@ -38,6 +38,9 @@ Fonctionnalités : drag & drop, compteur de mouvements, chronomètre.
 ## Auteurs
 
 - Puzzle original : Ajay Randhawa
+
+<img width="1253" height="670" alt="image" src="https://github.com/user-attachments/assets/2c0120a6-0ba5-435c-884e-82a698d3bed5" />
+
 - Adaptation Montpellier : Équipe Workshop EPSI 2025
 
 ## Licence
